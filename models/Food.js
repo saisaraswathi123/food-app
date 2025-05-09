@@ -6,4 +6,4 @@ const foodSchema = new mongoose.Schema({
   description: String,
   image: String
 });
-module.exports = mongoose.model('Food', foodSchema);
+module.exports = mongoose.model('food', foodSchema);
