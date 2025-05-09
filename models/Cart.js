@@ -3,7 +3,7 @@ const cartSchema = new mongoose.Schema({
   userId: String,
   items: [
     {
-      food: { type: mongoose.Schema.Types.ObjectId, ref: 'Food' },
+      food: { type: mongoose.Schema.Types.ObjectId, ref: 'food' },
       quantity: Number
     }
   ]
