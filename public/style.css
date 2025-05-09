@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+h1, h2 {
+  color: #333;
+}
+li {
+  margin-bottom: 8px;
+}
+div#foods {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
